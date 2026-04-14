@@ -29,11 +29,4 @@ Unlike traditional RAG systems that simply retrieve and summarize, this project 
 
 ---
 
-## 🏗️ System Architecture
-1.  **Document Ingestion:** PDF reports are processed, chunked, and stored in a hybrid vector-keyword index.
-2.  **The Orchestrator:** A LangChain agent acts as the "Brain," routing queries to the most relevant tool.
-3.  **The Toolset:**
-    * `search_tool`: Performs RAG to find specific facts.
-    * `abnormal_values_tool`: Scans tables for flags (High/Low).
-    * `summary_tool`: Condenses the entire report.
-      
+
