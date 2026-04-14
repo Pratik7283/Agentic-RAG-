@@ -1,0 +1,27 @@
+# Web Server & Environment
+fastapi
+uvicorn
+python-dotenv
+pydantic
+shutil
+
+# PDF Processing
+pymupdf
+
+# Core AI & LangChain
+langchain>=0.3.0
+langchain-community
+langchain-core
+langchain-text-splitters
+
+# Specific Integrations
+langchain-groq
+langchain-huggingface
+langchain-openai
+
+# Vector Store & Search
+faiss-cpu
+rank_bm25
+
+# Models & Embeddings
+sentence-transformers
